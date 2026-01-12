@@ -95,7 +95,7 @@ nav .space{
   border-radius: 5px;
   width: 195;
   height: 52px;
-  padding: 16px 16px 16px 54px;
+  padding: 16px 16px 16px 10px;
   color: white;
   font-size: 16px;
 }
@@ -103,6 +103,7 @@ nav .space{
 
 #notes{
   padding-top: 100px;
+  max-width: 1360px;
   background-attachment: fixed;
 }
 #notes .notes-conteiner{
@@ -117,6 +118,7 @@ nav .space{
   margin-bottom: 44px;
 }
 #notes .notes-conteiner .notes-box{
+  margin-left: 120px;
   display: flex;
   gap: 24px;
 
@@ -179,10 +181,51 @@ nav .space{
   list-style-type: none;
   list-style-image: url(Vector\ \(1\).png);
   list-style-position: inside;
+  
+}
+#about{
+  padding-top: 120px;
+}
+.about-container{
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #F7F6F2;
+  padding: 40px 80px;
+}
+.section-top h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.section-top p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  width: 1280px;
+  height: 48px;
 }
 
+.btn3 button{
+  background-color: #469165;
+  border: none;
+  padding: 16px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding: auto 583px;
+  margin-bottom: 16px;
+}
 
-
+.small small{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  
+}
 
 
 
