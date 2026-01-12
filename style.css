@@ -185,8 +185,11 @@ nav .space{
 }
 #about{
   padding-top: 120px;
+  max-width: 1360px;
+  background-attachment: fixed;
 }
 .about-container{
+  background-attachment: fixed;
   max-width: 1360px;
   margin: 0 auto;
   text-align: center;
@@ -226,7 +229,49 @@ nav .space{
   color: #627382;
   
 }
+#footer{
+  padding-top: 120px;
+  background-color: #001931;
+  max-width: 1600px;
+  margin-top: 120px;
 
+}
+
+.all-footer{
+  width: 1600px;
+  height: 348px;
+  
+}
+.first-line{
+  display: flex;
+  justify-content: space-between;
+}
+.first-line .imgg{
+  width: 140px;
+  height: 60px;
+  margin-left: 120px;
+  
+
+}
+.first-line p{
+  width: 130px;
+  height: 60px;
+  font-size: 20px;
+  margin-right: 127px;
+  color: white;
+  display: block;
+}
+
+.finish{
+  margin-top: 220px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 40px 0px 0px 0px;
+  border-top: 3px solid #534c4c;
+  
+}
 
 
 
