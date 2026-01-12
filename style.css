@@ -103,6 +103,7 @@ nav .space{
 
 #notes{
   padding-top: 100px;
+  background-attachment: fixed;
 }
 #notes .notes-conteiner{
   max-width: 1360px;
@@ -142,6 +143,44 @@ nav .space{
   color: #627382;
   line-height: 20px;
 }
+
+.last{
+  max-width: 1360px;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.last img{
+  margin-left: 120px;
+}
+.text{
+  margin-right: 120px;
+  margin-left: 60px;
+}
+.last small{
+  font-size: 16px;
+  font-weight: 400px;
+  color: #469165;
+}
+.last h2{
+  font-size: 48px;
+  font-weight: bold;
+  width: 600px;
+  height: 116px;
+  margin-bottom: 16px;
+}
+.last p{
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 40px    ;
+}
+.last li{
+  list-style-type: none;
+  list-style-image: url(Vector\ \(1\).png);
+  list-style-position: inside;
+}
+
 
 
 
